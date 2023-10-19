@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "4018755162",
+    "project_id": "walltutorial-e059c",
+    "storage_bucket": "walltutorial-e059c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4018755162:android:e9586a6c2752fdcd4c2a63",
+        "android_client_info": {
+          "package_name": "com.example.elmuro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB84wE6EfxoHpPRgQuVqAfrLarUOHt2bg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
