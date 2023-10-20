@@ -12,14 +12,27 @@ class Coment extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
           color: Colors.grey[300], borderRadius: BorderRadius.circular(8)),
+      margin: const EdgeInsets.only(bottom: 5),
+      padding: const EdgeInsets.all(15),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           //comentario
           Text(text),
+          const SizedBox(
+            height: 5,
+          ),
           //usuario y hora
           Row(
-            children: [Text(user), const Text(" . "), Text(time)],
-          )
+            children: [
+              Text(
+                user,
+                style: TextStyle(color: Colors.grey[400]),
+              ),
+              Text(" . ", style: TextStyle(color: Colors.grey[400])),
+              Text(time, style: TextStyle(color: Colors.grey[400]))
+            ],
+          ),
         ],
       ),
     );

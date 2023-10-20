@@ -1,3 +1,4 @@
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:elmuro/componentes/MyCajon.dart';
 import 'package:elmuro/componentes/pared_post.dart';
@@ -40,7 +41,7 @@ class _HomePageState extends State<HomePage> {
     //pop menu caja
     Navigator.pop(context);
     // viajar a pagina de perfil
-    Navigator.push(context, MaterialPageRoute(builder: (context) => ProfilePage(),
+     Navigator.push(context, MaterialPageRoute(builder: (context) => const ProfilePage()
     ),);
   }
 
@@ -103,14 +104,14 @@ class _HomePageState extends State<HomePage> {
                           hintText: 'Escribiendo en la Pared',
                           obscureText: false)),
                   IconButton(
-                      onPressed: postear, icon: Icon(Icons.arrow_circle_up))
+                      onPressed: postear, icon: const Icon(Icons.arrow_circle_up))
                 ],
               ),
             ),
             //mensaje
             Text(
               'Inicio Seccion: ' + currentUser.email!,
-              style: TextStyle(color: Colors.grey),
+              style: const TextStyle(color: Colors.grey),
             ),
             const SizedBox(
               height: 50,
