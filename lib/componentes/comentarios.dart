@@ -18,7 +18,7 @@ class Coment extends StatelessWidget {
           Text(text),
           //usuario y hora
           Row(
-            children: [Text(user), Text(" . "), Text(time)],
+            children: [Text(user), const Text(" . "), Text(time)],
           )
         ],
       ),
